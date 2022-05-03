@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html  lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>testing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css">
+</head>
+
+<body>
+    <div id="mocha"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.min.js"></script>
+    <script>
+        mocha.setup('bdd');
+        mocha.checkLeaks();
+        var assert = chai.assert;
+    </script>
+    <script src="greet.js"></script>
+    <script src="greet.tests.js"></script>
+    <script src="isFrom.js"></script>
+    <script src="isFrom.tests.js"></script>
+    <script src="countRegNumber.js"></script>
+    <script src="countRegNumber.tests.js"></script>
+    <script src="getDay.js"></script>
+    <script src="getDay.tests.js"></script>
+    <script src="isDayName.js"></script>
+    <script src="isDayName.tests.js"></script>
+    <script src="isFromBellville.js"></script>
+    <script src="isFromBellville.tests.js"></script>
+    <script src="isFromCapeTown.js"></script>
+    <script src="isFromCapeTown.tests.js"></script>
+    <script src="isFromGauteng.js"></script>
+    <script src="isFromGauteng.tests.js"></script>
+    <script src="isFromLimpopo.js"></script>
+    <script src="isFromLimpopo.tests.js"></script>
+    <script src="isWeekday.js"></script>
+    <script src="isWeekday.tests.js"></script>
+    <script src="regCheck.js"></script>
+    <script src="regCheck.tests.js"></script>
+    <script src="sameWeekday.js"></script>
+    <script src="sameWeekday.tests.js"></script>
+    <script src="yearsAgo.js"></script>
+    <script src="yearsArgo.tests.js"></script>
+    <script>
+        mocha.checkLeaks();
+        mocha.run();
+    </script>
+</body>
+
+</html>
