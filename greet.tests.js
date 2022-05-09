@@ -8,5 +8,13 @@ describe("the greet fuction", function(){
         assert.equal('Hello, Wiseman', greet("Wiseman"))
 
     })
+    it("should greet Johannes with 'Hello, Johannes'", function(){
+        assert.equal('Hello, Johannes', greet("Johannes"))
+
+    })
+    it("should greet Linda with 'Hello, Linda'", function(){
+        assert.equal('Hello, Linda', greet("Linda"))
+
+    })
 
 })
